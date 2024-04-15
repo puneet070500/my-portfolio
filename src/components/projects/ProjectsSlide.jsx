@@ -1,6 +1,6 @@
 import React from "react";
 
-import EcomProjects from "./EcomProjects";
+// import EcomProjects from "./EcomProjects";
 import Portfolio from "./Portfolio";
 import MyntraClone from "./MyntraClone";
 import Netflix from "./Netflix";
@@ -16,7 +16,7 @@ const ProjectsSlide = () => {
       </p>
       <MyntraClone />
       <Portfolio />
-      <EcomProjects />
+      {/* <EcomProjects /> */}
       <Netflix />
     </div>
   );
