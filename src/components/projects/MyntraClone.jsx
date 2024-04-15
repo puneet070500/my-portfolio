@@ -21,12 +21,10 @@ const MyntraClone = () => {
               </h2>
               <ul className="mt-6 text-lg leading-8 text-gray-300 text-start">
                 <li>
-                  Features Galore: Restaurants: Explore a curated selection of
-                  local eateries. Dishes: A diverse menu catering to every
-                  palate. Cart & Payments: Effortless ordering with secure
-                  transactions. Directions Map: Navigate to your favorite spot
-                  hassle-free. Profiles & Order History: A personalized touch
-                  for a delightful experience.
+                  Successfully built a Myntra using ReactJS, Styled Components,
+                  which received positive feedback from over 70 users. Add
+                  Navbar, Header section, footer Section, Category Special,
+                  PageCart
                 </li>
               </ul>
               <div className="mt-10 grid grid-cols-1 gap-x-2 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">

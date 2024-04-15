@@ -22,7 +22,7 @@ const Portfolio = () => {
               <ul className="mt-6 text-lg leading-8 text-gray-300 text-start">
                 <li>
                   Successfully built a Portfolio using ReactJS, Styled
-                  Components, which received positive feedback from over 50
+                  Components, which received positive feedback from over 80
                   users.
                 </li>
                 <li>
