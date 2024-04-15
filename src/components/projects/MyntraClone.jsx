@@ -1,9 +1,10 @@
 import React from "react";
-import Reactbreeze from "../../images/Screenshot 2024-01-29 230136.png";
+import Myntra from "../../images/myntra.png";
 import { FaReact } from "react-icons/fa6";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
-const ReactBreeze = () => {
+
+const MyntraClone = () => {
   return (
     <div className="bg-neutral-950 py-24 sm:py-32">
       <div className="relative isolate">
@@ -11,25 +12,21 @@ const ReactBreeze = () => {
           <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
             <img
               className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-              src={Reactbreeze}
+              src={Myntra}
               alt=""
             />
             <div className="w-full flex-auto">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                ReactBreeze
+                Myntra
               </h2>
               <ul className="mt-6 text-lg leading-8 text-gray-300 text-start">
                 <li>
-                  Developed a comprehensive React component library comprising
-                  187 pre-built components spanning 19 categories.
-                </li>
-                <li>
-                  Achieved a remarkable 30% reduction in development time across
-                  various projects by integrating standardized components.
-                </li>
-                <li>
-                  Introduced innovative features like component preview and code
-                  copying, enhancing the development workflow efficiency by 20%.
+                  Features Galore: Restaurants: Explore a curated selection of
+                  local eateries. Dishes: A diverse menu catering to every
+                  palate. Cart & Payments: Effortless ordering with secure
+                  transactions. Directions Map: Navigate to your favorite spot
+                  hassle-free. Profiles & Order History: A personalized touch
+                  for a delightful experience.
                 </li>
               </ul>
               <div className="mt-10 grid grid-cols-1 gap-x-2 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">
@@ -45,16 +42,20 @@ const ReactBreeze = () => {
                   <SiTailwindcss className="text-3xl mr-2 text-pink-600" />
                   Tailwind Css
                 </span>
+                {/* <span className="flex space-x-3">
+                  <SiRedux className="text-3xl mr-2 text-violet-400" />
+                  Redux
+                </span> */}
               </div>
               <div className="mt-10 flex">
                 <a
-                  href="https://react-breeze-ui-library.vercel.app/"
+                  href="https://myntra-clone-six-beta.vercel.app/"
                   className="text-sm font-semibold leading-6 text-pink-400"
                 >
                   See live project <span aria-hidden="true">&rarr;</span>
                 </a>
                 <a
-                  href="https://github.com/abhishek-06-singh/ReactBreeze-UI-Library"
+                  href="https://github.com/puneet070500/myntra-clone"
                   className="bg-pink-500 p-2 rounded-full text-gray-200 ml-auto w-32"
                 >
                   {" "}
@@ -81,4 +82,4 @@ const ReactBreeze = () => {
   );
 };
 
-export default ReactBreeze;
+export default MyntraClone;

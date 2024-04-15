@@ -1,10 +1,10 @@
 import React from "react";
-import ReactBreeze from "./ReactBreeze";
-import FoodFiesta from "./FoodFiesta";
-import LinkedIn from "./LinkedIn";
+import Netflix from "./Netflix";
+import Myntra from "./MyntraClone";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import EcomProjects from "./EcomProjects";
+import Portfolio from "./Portfolio";
+// import EcomProjects from "./EcomProjects";
 
 const Projects = () => {
   return (
@@ -19,10 +19,10 @@ const Projects = () => {
       <p className="mt-2 text-3xl font-bold tracking-tight bg-gradient-to-r from-teal-500 via-pink-600 to-sky-600 bg-clip-text text-transparent sm:text-4xl">
         I worked on lots of projects .
       </p>
-      <ReactBreeze />
-      <EcomProjects />
-      <FoodFiesta />
-      <LinkedIn />
+      {/* <EcomProjects /> */}
+      <Myntra />
+      <Portfolio />
+      <Netflix />
     </div>
   );
 };

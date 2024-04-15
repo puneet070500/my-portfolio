@@ -1,10 +1,9 @@
 import React from "react";
-import linkedin from "../../images/linked.png";
+import NetflixImage from "../../images/netflix.png";
 import { FaReact } from "react-icons/fa6";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
-
-const LinkedIn = () => {
+const Netflix = () => {
   return (
     <div className="bg-neutral-950 py-24 sm:py-32">
       <div className="relative isolate">
@@ -12,27 +11,25 @@ const LinkedIn = () => {
           <div className="mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20">
             <img
               className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-              src={linkedin}
+              src={NetflixImage}
               alt=""
             />
             <div className="w-full flex-auto">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                LinkedIn Clone
+                Netflix
               </h2>
               <ul className="mt-6 text-lg leading-8 text-gray-300 text-start">
                 <li>
-                  Successfully built a LinkedIn clone using ReactJS, Styled
-                  Components, and Redux, which received positive feedback from
-                  over 100 users.
+                  Successfully built a Netflix using ReactJS, Styled Components,
+                  which received positive feedback from over 80 users.
                 </li>
                 <li>
-                  Implemented a variety of features, including the ability to
-                  post images, videos, and text, resulting in over 500
-                  user-generated content items posted to the platform.
+                  Achieved a remarkable 30% reduction in development time across
+                  various projects by integrating standardized components.
                 </li>
                 <li>
-                  Optimized the user experience by 30% , implementing responsive
-                  design principles.
+                  Introduced innovative features like component preview and code
+                  copying, enhancing the development workflow efficiency by 20%.
                 </li>
               </ul>
               <div className="mt-10 grid grid-cols-1 gap-x-2 gap-y-3 text-base leading-7 text-white sm:grid-cols-2">
@@ -48,20 +45,16 @@ const LinkedIn = () => {
                   <SiTailwindcss className="text-3xl mr-2 text-pink-600" />
                   Tailwind Css
                 </span>
-                <span className="flex space-x-3">
-                  <SiRedux className="text-3xl mr-2 text-violet-400" />
-                  Redux
-                </span>
               </div>
               <div className="mt-10 flex">
                 <a
-                  href="https://illustrious-smakager-a05a4d.netlify.app/"
+                  href="https://netflix-clone-eosin-psi.vercel.app/"
                   className="text-sm font-semibold leading-6 text-pink-400"
                 >
                   See live project <span aria-hidden="true">&rarr;</span>
                 </a>
                 <a
-                  href="https://github.com/abhishek-06-singh/LinkedIn-Clone-ReactJS?tab=readme-ov-file"
+                  href="https://github.com/puneet070500/netflix-clone"
                   className="bg-pink-500 p-2 rounded-full text-gray-200 ml-auto w-32"
                 >
                   {" "}
@@ -88,4 +81,4 @@ const LinkedIn = () => {
   );
 };
 
-export default LinkedIn;
+export default Netflix;

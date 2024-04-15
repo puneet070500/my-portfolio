@@ -3,7 +3,7 @@ import Hero from "./Hero";
 
 import AmoutMeSlide from "./AmoutMeSlide";
 import SkillsSlide from "./SkillsSlide";
-// import ProjectsSlide from "./projects/ProjectsSlide";
+import ProjectsSlide from "./projects/ProjectsSlide";
 
 import NewsLetter from "./NewsLetter";
 
@@ -13,7 +13,7 @@ const HomePage = () => {
       <Hero />
       <AmoutMeSlide />
       <SkillsSlide />
-      {/* <ProjectsSlide /> */}
+      <ProjectsSlide />
 
       <NewsLetter />
     </div>
