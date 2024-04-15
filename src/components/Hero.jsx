@@ -26,9 +26,7 @@ const Hero = () => {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <span className=" text-3xl font-bold tracking-tight bg-gradient-to-r from-teal-500 via-pink-600 to-sky-600 bg-clip-text text-transparent">
-              Avi.dev()
-            </span>
+            <span className=" text-3xl font-bold tracking-tight bg-gradient-to-r from-teal-500 via-pink-600 to-sky-600 bg-clip-text text-transparent"></span>
           </div>
           <div className="flex lg:hidden">
             <FaBarsProgress
