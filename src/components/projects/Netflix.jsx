@@ -48,13 +48,13 @@ const Netflix = () => {
               </div>
               <div className="mt-10 flex">
                 <a
-                  href="https://netflix-clone-eosin-psi.vercel.app/"
+                  href="https://netflixs-clone.vercel.app/"
                   className="text-sm font-semibold leading-6 text-pink-400"
                 >
                   See live project <span aria-hidden="true">&rarr;</span>
                 </a>
                 <a
-                  href="https://github.com/puneet070500/netflix-clone"
+                  href="https://github.com/puneet070500/netflixs-clone"
                   className="bg-pink-500 p-2 rounded-full text-gray-200 ml-auto w-32"
                 >
                   {" "}
